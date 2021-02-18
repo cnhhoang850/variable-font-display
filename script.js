@@ -246,8 +246,8 @@ window.addEventListener(
   (e) => {
     let x = e.beta;
     let y = e.gamma;
-    let progressY = Math.abs(x) / 180;
-    let progressX = Math.abs(y) / 90;
+    let progressY = Math.abs(x / 4) / 180 / 4;
+    let progressX = Math.abs(y / 4) / 90 / 4;
 
     if (progressX < 0) {
       progressX = 0;
