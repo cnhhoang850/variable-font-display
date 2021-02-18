@@ -142,12 +142,11 @@ span {
   transition-duration: 0.3s;
   transition-timing-function: cubic-bezier(0.3, 0.7, 0, 1);
   will-change: var(--font-stretch);
+  color: white;
+  text-shadow: -5px -5px 0 #000, 5px -5px 0 #000, -5px 5px 0 #000, 5px 5px 0 #000;
 
   will-change: text-shadow;
+  -webkit-tap-highlight-color: transparent;
 }
 
-
- .box .one span:hover {
-  color: white;
-}
 
